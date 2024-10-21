@@ -1,0 +1,84 @@
+.image {
+  width: 30px;
+  height: auto;
+  margin: 10px;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+.logo {
+  width: 60px;
+}
+
+nav {
+  background-color: #a16629 !important;
+}
+
+.banner {
+  position: relative;
+  height: 300px;
+  background-image: url("../Frontend\ Assessment/images/dubai-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+}
+
+p#bannerLivable {
+  font-weight: bold;
+  margin: 0;
+  font-size: xxx-large;
+}
+
+.margin-top {
+  margin-top: 1rem !important;
+}
+
+.tabs .tab a,
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  color: #a16629 !important;
+}
+
+.tabs .indicator {
+  background-color: #a16629 !important;
+}
+
+.background-white {
+  background-color: white !important;
+}
+
+@media (max-width: 600px) {
+  .tabs .tab a {
+    font-size: 10px !important;
+  }
+
+  .logo {
+    width: 55px;
+  }
+
+  .responsive-align {
+    margin-top: 0.5rem;
+    text-align: left !important;
+  }
+}
