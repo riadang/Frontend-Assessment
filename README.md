@@ -23,9 +23,9 @@ This project is a simple webpage that demonstrates the use of HTML and CSS to cr
 ## Installation
 
 To run this project locally
-- 1.Clone the repository https://github.com/riadang/Frontend-Assessment.git
-- 2.Navigate to project directory: cd Frontend-Assessment
-- 3.Run index.html file.
+- Clone the repository https://github.com/riadang/Frontend-Assessment.git
+- Navigate to project directory: cd Frontend-Assessment
+- Run index.html file.
 
 ## Usage
 
