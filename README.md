@@ -35,7 +35,6 @@ This is a dummy website used to showcase different facilities provided by Dubai 
 
 ![Header-Banner-Tabs](/images/header-banner-tabs.png)
 ![Footer](/images/footer.png)
-![Tablet View](/images/tablet%20view.png)
 ![Tablet Menu Open](/images/tablet-menu-open.png)
 
 ## Features
