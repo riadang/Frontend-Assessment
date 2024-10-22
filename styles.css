@@ -19,7 +19,7 @@ nav {
 .banner {
   position: relative;
   height: 300px;
-  background-image: url("../Frontend\ Assessment/images/dubai-pic.jpg");
+  background-image: url("images/dubai-pic.jpg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -68,6 +68,21 @@ p#bannerLivable {
   background-color: white !important;
 }
 
+.input-div {
+  display: flex;
+  align-items: center;
+}
+
+#input-label {
+  font-size: 15px;
+}
+
+.validate {
+  border: 1px solid lightgrey !important;
+  border-radius: 9px !important;
+  padding-left: 4px !important;
+}
+
 @media (max-width: 600px) {
   .tabs .tab a {
     font-size: 10px !important;
@@ -80,5 +95,13 @@ p#bannerLivable {
   .responsive-align {
     margin-top: 0.5rem;
     text-align: left !important;
+  }
+
+  .input-div {
+    display: inline;
+  }
+
+  #input-label {
+    margin-bottom: 1rem;
   }
 }
